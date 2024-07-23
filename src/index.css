@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: tommaso;
+  src: url("../public/fonts/alk_tommaso.otf");
+}
+@font-face {
+  font-family: geo;
+  src: url("../public/fonts/arial_geo.ttf");
+}
+
+.custom-card {
+  @apply w-[160px] h-[68px] flex flex-col items-center justify-center rounded-md text-white bg-backgroundColor-purpleMid pr-[11px] pl-[11px];
+}
+
+.custom-cocktail-text {
+  @apply flex flex-col gap-[16px] pb-[8px] border-b-[0.5px] border-borderColor-gray;
+}
