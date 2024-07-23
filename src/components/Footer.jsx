@@ -24,7 +24,7 @@ function Footer() {
             } flex gap-[20px] text-[12px] justify-between desktop:justify-normal desktop:grid desktop:grid-rows-1 desktop:grid-cols-2`}
           >
             <div className="flex gap-[20px] desktop:gap-[50px]">
-              <div className="w-[45px] h-[45px] rounded-full bg-logoColor-circle flex items-center desktop:justify-center">
+              <div className="w-[45px] h-[45px] rounded-full bg-logoColor-circle flex items-center justify-center">
                 <img className="text-[20px]" src={aso}></img>
               </div>
               <div className="flex flex-col gap-[16px]">

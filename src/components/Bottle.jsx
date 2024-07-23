@@ -36,7 +36,7 @@ function Bottle() {
           <h1 className="pl-[20px] font-tommaso text-[40px] leading-[46px] font-[400] mb-[19px] mt-[20px] tablet:pl-0  desktop:ml-0">
             ბოთლი
           </h1>
-          <div className="flex justify-between beforeTablet:pl-[50px] beforeTablet:pr-[50px] pt-[14px] pr-[19px] pb-[14px] pl-[14px] border-t-[3px] border-b-[3px] tablet:border-[3px] border-backgroundColor-purpleMid tablet:pl-0 tablet:pt-0 tablet:pb-0 tablet:gap-[35px] tablet:justify-normal ">
+          <div className="flex justify-between beforeTablet:pl-[50px] beforeTablet:pr-[50px] pt-[14px] pr-[19px] pb-[14px] pl-[14px] border-t-[3px] border-b-[3px] tablet:border-[3px] border-backgroundColor-purpleMid tablet:pl-0 tablet:pt-0 tablet:pb-0 tablet:gap-[35px] tablet:justify-between ">
             <div className="flex flex-col w-[205px] tablet:min-w-[270px] biggerDesktop:min-w-[320px] ">
               <img
                 src={bottle}

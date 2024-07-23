@@ -20,7 +20,7 @@ function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_v1z33lb", "template_beoub4e", form.current, {
+      .sendForm("service_5sjjrbj", "template_beoub4e", form.current, {
         publicKey: "mAi93w51lvHpMYQJL",
       })
       .then(
